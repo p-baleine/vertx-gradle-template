@@ -32,7 +32,7 @@ shadowJar {
     classifier = 'fat'
     manifest {
         attributes 'Main-Class': 'io.vertx.core.Starter'
-        attributes 'Main-Verticle': 'io.vertx.example.HelloWorldVerticle'
+        attributes 'Main-Verticle': 'com.example.helloworld.HelloWorldVerticle'
     }
     mergeServiceFiles {
         include 'META-INF/services/io.vertx.core.spi.VerticleFactory'
